@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #include <fstream>
-#include <conio.h>
+
 using namespace std;
 
 // TO-DO
@@ -2143,11 +2143,10 @@ int main()
     while (!g.game_over)
     {
         g.take_input();
-        system("cls");
+        system("clear");
         g.print_board();
     }
     g.print_winner();
     cout << endl
          << "Press any key to exit...";
-    while (!_getch()){};
 }
